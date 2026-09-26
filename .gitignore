@@ -1,0 +1,10 @@
+build/
+*.log
+.DS_Store
+__pycache__/
+# never commit firmware, dumps, backups or credentials; they live in $DATA (~/dreame-l40)
+*.bin
+*.img
+*.zip
+*.tar.gz
+wifi.txt
